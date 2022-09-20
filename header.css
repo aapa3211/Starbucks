@@ -1,0 +1,90 @@
+#starbuckslogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  margin-right: 20px;
+  align-items: center;
+}
+ul a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0, 15s;
+}
+
+ul a:hover {
+  color: green;
+}
+body,
+html {
+  margin: 0;
+
+  font-family: "Roboto", sans-serif;
+}
+header {
+  box-shadow: 0 2px rgb(226, 226, 226);
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.picture {
+  display: block;
+  align-items: center;
+  width: 60px;
+  margin-left: 20px;
+}
+
+.right-menu {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  margin-right: 40px;
+}
+
+button {
+  margin: 4px 8px;
+}
+#store {
+  color: black;
+  font-weight: bold;
+  margin-right: 5px;
+  transition: color 0.15s;
+}
+#store:hover {
+  color: green;
+  cursor: pointer;
+}
+#btn-sign {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 4px 16px;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+#btn-sign:hover {
+  background-color: rgb(231, 231, 231);
+}
+
+#btn-join {
+  background-color: black;
+  color: white;
+  padding: 4px 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+#btn-join:hover {
+  opacity: 0.7;
+}

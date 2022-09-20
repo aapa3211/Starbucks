@@ -1,0 +1,99 @@
+.coffe-picture {
+  width: 49.9%;
+  flex-wrap: nowrap;
+}
+
+.section-one,
+.section-two,
+.section-three,
+.section-four,
+.section-five,
+.section-six {
+  margin-top: 35px;
+}
+
+/*sectiondiv*/
+.section-one-div,
+.section-two-div,
+.section-three-div,
+.section-four-div,
+.section-five-div,
+.section-six-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d4e9e2;
+}
+.section-two-div,
+.section-three-div,
+.section-four-div,
+.section-five-div,
+.section-six-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #006241;
+}
+
+/*description divs*/
+.section-one-description,
+.section-two-description,
+.section-three-description,
+.section-four-description,
+.section-five-description,
+.section-six-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  margin: auto;
+}
+.section-two-description h1,
+.section-three-description h1,
+.section-four-description h1,
+.section-five-description h1,
+.section-six-description h1 {
+  color: white;
+  font-size: 42px;
+  text-align: center;
+}
+.section-two-description p,
+.section-three-description p,
+.section-four-description p,
+.section-five-description p,
+.section-six-description p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+/*buttons*/
+#fingertipsbtn {
+  background-color: #d4e9e2;
+  border: 1px solid #1e3932;
+  color: #1e3932;
+  padding: 4px 16px;
+  border-radius: 12px;
+}
+#fingertipsbtn:hover {
+  background-color: #bcebdb;
+  cursor: pointer;
+}
+
+#pslbtn,
+#learnmorebtn {
+  background-color: #006241;
+  border: 1px solid white;
+  padding: 6px 16px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.15;
+}
+
+#pslbtn:hover,
+#learnmorebtn:hover {
+  background-color: #037a53;
+  cursor: pointer;
+}
