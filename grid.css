@@ -11,7 +11,9 @@
 .section-six {
   margin-top: 35px;
 }
-
+.section-six {
+  margin-bottom: 35px;
+}
 /*sectiondiv*/
 .section-one-div,
 .section-two-div,
@@ -75,6 +77,7 @@
   color: #1e3932;
   padding: 4px 16px;
   border-radius: 12px;
+  font-weight: bold;
 }
 #fingertipsbtn:hover {
   background-color: #bcebdb;
@@ -96,4 +99,51 @@
 #learnmorebtn:hover {
   background-color: #037a53;
   cursor: pointer;
+}
+
+/* footer */
+
+.footer-container {
+  display: flex;
+  margin-left: 40px;
+  box-shadow: 0px -4px 2px rgba(226, 226, 226, 0.75);
+  gap: 30px;
+}
+.about-us,
+.Careers,
+.social-impact,
+.for-business-partners,
+.order-and-pickup {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: grey;
+  line-height: 1.5;
+  font-size: 18px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  transition: color 0, 15s;
+}
+.footer-container a:hover {
+  color: rgb(49, 49, 49);
+}
+.footer-container p {
+  font-size: 22px;
+  font-weight: bold;
+}
+#footer {
+  display: flex;
+  gap: 16px;
+}
+.icon-container ul li:hover {
+  background: grey;
+}
+.footer-logos {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
 }
